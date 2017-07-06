@@ -4,7 +4,7 @@ puts 'Please input a end year:'
 ending = gets.chomp.to_i
 counter = starting
 while counter <= ending
-  if counter%4 == 0
+  if counter%4 == 0 && (counter%100!=0 || counter%400==0)
     puts ''
     puts counter.to_s
   end
