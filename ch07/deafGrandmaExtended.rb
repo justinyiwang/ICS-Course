@@ -5,6 +5,7 @@ while counter < 3
     puts 'HUH?! SPEAK UP, SONNY!'
     counter = 1
   elsif input == 'BYE'
+    puts 'HUH?! SPEAK UP, SONNY!'
     counter = counter + 1
   else
     puts 'NO, NOT SINCE '+rand(1930..1950).to_s+'!'
